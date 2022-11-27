@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>quora</title>
+    <style>
+         body{
+            background-color:black;
+        }
+        .main{
+            width: 700px;
+            height: 550px;
+            background-color:whitesmoke;
+            position:absolute;
+            top: 75px;
+            border-radius: 5px;
+            left: 270px;
+            overflow: hidden;
+        }
+        .title{
+            color: rgb(185,43,39);
+            position:absolute;
+            font-size: 60px;
+            left: 260px;
+            top: 2px;
+        }
+        .sub{
+            position: absolute;
+            top: 100px;
+            left: 110px;
+        }
+        .vertical{
+            position: inherit;
+            left: 50%;
+            top: 175px;
+            height: 270px;
+            width: 2px;
+            background:rgb(239, 239,239);
+        }
+        .login{
+            position: absolute;
+            left: 375px;
+            top: 150px;
+            font-size: 17px;
+        }
+        .input{
+            position: absolute;
+            top: 250px;
+            left: 375px;
+            height: 30px;
+            width: 250px;
+        }
+        #inp2{
+            position: absolute;
+            top: 330px;
+        }
+        .horizon{
+            position: absolute;
+            width: 300px;
+            height: 2px;
+            background:rgb(239,239,239);
+            left: 375px;
+            top: 200px;
+            border-left: 177px solid black;
+        }
+        .text{
+            position: absolute;
+            left: 375px;
+            top: 200px;
+            font-size: 15px;
+        }
+        #te2{
+            top: 280px;
+        }
+        .forgot_password{
+            position: absolute;
+            left: 375px;
+            top: 400px;
+            font-size: 15px;
+            font-style:sans-serif;
+            color: blue;
+        }
+        #button{
+            position: absolute;
+            right:77px;
+            top: 390px;
+            font-size: 17px;
+            width: 80px;
+            height: 40px;
+            border-radius: 19px;
+            color: white;
+            background-color: #04AA6D;
+            border: 0ch solid  #04AA6D;
+        }
+        .para{
+            font-family: monospace;
+            position: absolute;
+            top: 170px;
+            left: 15px;
+            font-size: 13px;
+        }
+        .google{
+            position: absolute;
+            top: 250px;
+            left: 20px;
+            height: 37px;
+            width: 300px;
+            background: white;
+        }
+        #goo2{
+            position: absolute;
+             top: 310px;
+        }
+        .image{
+            position: absolute;
+            height: 20px;
+            width: 20px;
+            top: 258px;
+            left: 40px;
+        }
+        #fb{
+            top: 315px;
+        }
+        .signup{
+            position: absolute;
+            top: 370px;
+            left: 125px;
+            color: black;
+            font-style:sans-serif;
+        }
+        .hor2{
+            position: absolute;
+            width: 700px;
+            height: 2px;
+            bottom: 90px;
+            background: rgb(239,239,239);
+        }
+        .hor3{
+            position: absolute;
+            width: 700px;
+            height: 2px;
+            bottom: 45px;
+            background: rgb(239,239,239);
+        }
+        .lang{
+            position: absolute;
+            bottom: 55px;
+            left: 360px;
+            font-size: 15px;
+        }
+        #tel{
+            position: absolute;
+            left: 280px;
+        }
+        .quicklinks{
+            display: flex;
+            position: absolute;
+            bottom: 5px;
+            left: 5px;
+        }
+        .quicklinks ul{
+            display: flex;
+        }
+        .quickitems{
+            list-style: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <h1 class="title">Quora</h1>
+        <h3 class="sub">A place to share knowledge and better understand the world</h3>
+        <div class="vertical">
+        </div>
+        <div class="horizon"></div>
+        <h4 class="login">Login</h4>
+        <input class="input" type="text" placeholder="Your email"><br>
+        <input class="input" id="inp2" placeholder="Your password" type="text">
+        <h4 class="text" >Email</h4>
+        <h4 class="text" id="te2">Password</h4>
+        <a class="forgot_password">forget password?</a>
+        <button id="button">Login</button>
+        <pre class="para">By continuing you indicate that you agree to           
+Quora's Terms of Service and Privacy Policy.</pre>
+        <button class="google">Continue with Google</button>
+        <button class="google" id="goo2">Continue with Facebook</button>
+        <img class="image" src="google.png" alt="google">
+        <img class="image" id="fb" src="facebook.png" alt="fb">
+        <p><a class="signup">sign up with email</a></p>
+        <div class="hor2"></div>
+        <div class="hor3"></div>
+        <a href="//" class="lang">हिन्दी ></a>
+        <a href="//" class="lang" id="tel">తెలుగు ></a>
+        <div class="quicklinks">
+            <ul>
+                <li class="quickitems"><a href="//">About</a></li>.
+                <li class="quickitems"><a href="//">Careers</a></li>.
+                <li class="quickitems"><a href="//">Privacy</a></li>.
+                <li class="quickitems"><a href="//">Terms</a></li>.
+                <li class="quickitems"><a href="//">Contact</a></li>.
+                <li class="quickitems"><a href="//">Languages</a></li>.
+                <li class="quickitems"><a href="//">Your add choices</a></li>.
+                <li class="quickitems"><a href="//">Press</a></li>
+                <li class="quickitems">&copy Quora,Inc.2022</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
